@@ -33,6 +33,13 @@ namespace exercise4
                 return (false);
         }
         
+        public void push(int element)
+        {
+            node fresh;
+            fresh = new node(element, null);
+
+
+        }
     
 
 
