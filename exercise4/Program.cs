@@ -16,7 +16,17 @@ namespace exercise4
             info = i;
             next = n;
         }
-    
+    }
+
+    class Stack
+    {
+        node top;
+        public Stack()
+        {
+            top = null;
+        }
+        
+    }
 
 
 
@@ -28,8 +38,10 @@ namespace exercise4
 
 
 
-        static void Main(string[] args)
+
+    static void Main(string[] args)
         {
         }
     }
 }
+
