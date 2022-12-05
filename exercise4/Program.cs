@@ -43,6 +43,12 @@ namespace exercise4
             Console.WriteLine("\n" + element + "pushed");
         }
 
+        public void pop()
+        {
+            Console.WriteLine("\n The poped elements is: " + top.info);
+            top = top.next;
+        }
+
 
     
 
