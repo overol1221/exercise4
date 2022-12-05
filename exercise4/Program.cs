@@ -38,8 +38,12 @@ namespace exercise4
             node fresh;
             fresh = new node(element, null);
 
-
+            fresh.next = top;
+            top = fresh;
+            Console.WriteLine("\n" + element + "pushed");
         }
+
+
     
 
 
