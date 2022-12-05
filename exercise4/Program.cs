@@ -32,7 +32,7 @@ namespace exercise4
             else
                 return (false);
         }
-        
+
         public void push(int element)
         {
             node fresh;
@@ -75,7 +75,7 @@ namespace exercise4
                 Console.WriteLine("3. Display");
                 Console.WriteLine("4. Exit");
                 Console.Write("\nEnter your choice: ");
-                string Input = Console.ReadLine(); 
+                string Input = Console.ReadLine();
                 char ch = Convert.ToChar(Input == "" ? "0" : Input);
                 switch (ch)
                 {
@@ -92,28 +92,33 @@ namespace exercise4
                         }
                         s.pop();
                         break;
+                    case '3':
+                        s.display();
+                        break;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
                 }
             }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        static void Main(string[] args)
-        {
-        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
