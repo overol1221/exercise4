@@ -49,6 +49,13 @@ namespace exercise4
             top = top.next;
         }
 
+        public void display()
+        {
+            node tmp;
+            if (empty())
+                Console.WriteLine("\nStack Empty");
+            
+        }
 
     
 
