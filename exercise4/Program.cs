@@ -63,9 +63,28 @@ namespace exercise4
             }
         }
 
+        static void Main(string[] args)
+        {
+            Stack s = new Stack();
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\n***stack Menu***\n");
+                Console.WriteLine("1. Push ");
+                Console.WriteLine("2. pop ");
+                Console.WriteLine("3. Display");
+                Console.WriteLine("4. Exit");
+                Console.Write("\nEnter your choice: ");
+                string Input = Console.ReadLine(); 
+                char ch = Convert.ToChar(Input == "" ? "0" : Input);
+                switch (ch)
+                {
+
+                }
+            }
+        }
 
 
-    
 
 
 
@@ -78,7 +97,9 @@ namespace exercise4
 
 
 
-    static void Main(string[] args)
+
+
+        static void Main(string[] args)
         {
         }
     }
